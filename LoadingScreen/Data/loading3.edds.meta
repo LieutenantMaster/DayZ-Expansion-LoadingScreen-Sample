@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E1EE13EB5B1B9AFA}LoadingScreen/Data/loading3.edds"
+ Author "desktop-b4j8hbm"
+ ChangeDate 131836492
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "loading3.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}
