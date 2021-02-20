@@ -9,16 +9,17 @@ You are free to use this sample in your own mod.
 ## What can you do with this Sample ?
 
 - Custom loading screen pictures
-- - You can keep or not the Expansion loading screen pictures
-- - You can use custom loading screen pictures based on the map
+- You can keep or not the Expansion loading screen pictures
+- You can use custom loading screen pictures based on the map
 - Custom loading screen messages
-- - You can keep the Expansion loading messages mixed with your own messages if wanted
+- You can keep the Expansion loading messages mixed with your own messages if wanted
 - Custom loading bar color
 - Custom loading screen Logo
 
 ## 8 different versions are available
 
 Please keep in mind all this files are duplicates. You need to keep only **one** file.
+
 (In LoadingScreen => Scripts => 3_Game)
 
 ### Example 01
@@ -47,3 +48,11 @@ Please keep in mind all this files are duplicates. You need to keep only **one**
  - Custom Loading Bar color
  - Custom loading screen based on the map without the loading screen of Expansion
  - Custom loading messages mixed with the loading messages of Expansion
+
+## Troubleshoot
+
+### The screen is white !
+The path of your pictures is incorrect or the naming is wrong. The mod was not able to find the picture(s).
+
+### I have compiled my mod but I don't see anything new, it's like if my mod was not there.
+The path to your scripts is incorrect or it failed to compile the pbo containing the scripts.
