@@ -1,8 +1,8 @@
-DayZExpansion/Workbench/Batchfiles/FixScripts.bat
-DayZExpansion/Workbench/Batchfiles/SetupFilePatching.bat
-DayZExpansion/Workbench/Batchfiles/Symlink.bat
-DayZExpansion/Workbench/Batchfiles/DeployAndLaunchOffline.bat
-DayZExpansion/Workbench/Batchfiles/DeployAndLaunchServer.bat
+DayZ-Expansion-LoadingScreen-Sample/Workbench/Batchfiles/FixScripts.bat
+DayZ-Expansion-LoadingScreen-Sample/Workbench/Batchfiles/SetupFilePatching.bat
+DayZ-Expansion-LoadingScreen-Sample/Workbench/Batchfiles/Symlink.bat
+DayZ-Expansion-LoadingScreen-Sample/Workbench/Batchfiles/DeployAndLaunchOffline.bat
+DayZ-Expansion-LoadingScreen-Sample/Workbench/Batchfiles/DeployAndLaunchServer.bat
 
 *.tga
 source/
