@@ -1,20 +1,13 @@
+/*
+	EXAMPLE 01
+		Custom loading screen without the loading screen of Expansion
+*/
+
 const string LOADING_SCREENS_PATH = "DayZ-Expansion-LoadingScreen-Sample/LoadingScreen/Data/loading";
 const int LOADING_SCREENS_COUNT = 3; //! The amount of pictures for the loading screen starting from 1
 
-//! Remove this code if you want to use the expansion loading messages and not your own messages
-const string LOADING_MESSAGES_PATH = "DayZ-Expansion-LoadingScreen-Sample/LoadingScreen/Data/messages.json";
- 
 modded class LoadingScreen 
 {
-	//! Remove this code if you want to use the expansion loading messages and not your own messages
-	protected autoptr array< ref ExpansionLoadingScreenMessageData > m_MessageJson;
-
-	void LoadingScreen(DayZGame game)
-	{
-		//! Remove this code if you want to use the expansion loading messages and not your own messages
-		JsonFileLoader< ref array< ref ExpansionLoadingScreenMessageData > >.JsonLoadFile( LOADING_MESSAGES_PATH, m_MessageJson );
-	};
-
 	override void Show()
 	{
 		m_Backgrounds.Clear(); //! Remove me if you also want to see the expansion loading screens
@@ -22,16 +15,6 @@ modded class LoadingScreen
 			m_Backgrounds.Insert(new ExpansionLoadingScreenBackground(LOADING_SCREENS_PATH + i + ".edds"));
 		}
 
-		//! Remove this code if you want to use the expansion loading messages and not your own messages
-		if ( m_MessageJson )
-		{
-			m_MessageRest = m_MessageJson.GetRandomElement();
-
-			m_LoadingMessage.SetText( m_MessageRest.message );
-			m_LoadingMessageAuthor.SetText( "#STR_EXPANSION_LOADING_MSG_SUBMITTEDBY" + " " + m_MessageRest.submitter );
-		}
-		//! Remove this code if you want to use the expansion loading messages and not your own messages
-		
 		super.Show();
 	};
 };
