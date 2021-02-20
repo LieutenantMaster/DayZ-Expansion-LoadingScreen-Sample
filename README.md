@@ -9,10 +9,10 @@ You are free to use this sample in your own mod.
 ## What can you do with this Sample ?
 
 - Custom loading screen pictures
- - You can keep or not the Expansion loading screen pictures
- - You can use custim loading screen pictures based on the map
+- - You can keep or not the Expansion loading screen pictures
+- - You can use custom loading screen pictures based on the map
 - Custom loading screen messages
- - You can keep the Expansion loading messages mixed with your own messages if wanted
+- - You can keep the Expansion loading messages mixed with your own messages if wanted
 - Custom loading bar color
 - Custom loading screen Logo
 
