@@ -4,4 +4,4 @@ overview = "DayZ-Expansion Loadingscreen Sample";
 action = "";
 author = "DayZ Expansion";
 authorID = "";
-version = "1.0";
+version = "2.0";

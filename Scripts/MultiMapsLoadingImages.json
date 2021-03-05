@@ -1,0 +1,24 @@
+[
+    {
+        "MapName": "default",
+        "Path":
+        [
+            "DayZ-Expansion-LoadingScreen-Sample/Scripts/loading_screen_1_co.edds",
+            "DayZ-Expansion-LoadingScreen-Sample/Scripts/loading_screen_2_co.edds"
+        ]
+    },
+    {
+        "MapName": "chernarusplus",
+        "Path":
+        [
+            "DayZExpansion/GUI/textures/loading_screens/loading.edds"
+        ]
+    },
+    {
+        "MapName": "enoch",
+        "Path":
+        [
+            "DayZ-Expansion-LoadingScreen-Sample/Scripts/loading_screen_3_co.edds"
+        ]
+    }
+]

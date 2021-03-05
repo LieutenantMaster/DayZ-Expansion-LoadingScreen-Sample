@@ -9,47 +9,21 @@ You are free to use this sample in your own mod.
 ## What can you do with this Sample ?
 
 - Custom loading screen pictures
-- You can keep or not the Expansion loading screen pictures
-- You can use custom loading screen pictures based on the map
 - Custom loading screen messages
-- You can keep the Expansion loading messages mixed with your own messages if wanted
+- Custom loading screen logo
 - Custom loading bar color
-- Custom loading screen Logo
-
-## 8 different versions are available
-
-Please keep in mind all this files are duplicates. You need to keep only **one** file.
-
-(In LoadingScreen => Scripts => 3_Game)
-
-### Example 01
- - Custom loading screen without the loading screen of Expansion
-### Example 02
- - Custom loading screen with also the loading screen of Expansion Enabled
-### Example 03
- - Custom loading screen without the loading screen of Expansion
- - Custom loading messages without the loading messages of Expansion
-### Example 04
- - Custom loading screen without the loading screen of Expansion
- - Custom loading messages mixed with the loading messages of Expansion
-### Example 05
- - No Custom loading screen
- - Custom loading messages without the loading messages of Expansion
-### Example 06
- - No Custom loading screen
- - Custom loading messages mixed with the loading messages of Expansion
-### Advanced Example 01
- - Custom Logo
- - Custom Loading Bar color
- - Custom loading screen without the loading screen of Expansion
- - Custom loading messages mixed with the loading messages of Expansion
-### Advanced Example 02
- - Custom Logo
- - Custom Loading Bar color
- - Custom loading screen based on the map without the loading screen of Expansion
- - Custom loading messages mixed with the loading messages of Expansion
+- You can enable the features you want
 
 ## Troubleshoot
+
+### What is the folder "Workbench" ?
+Some tools we use to create and work on mods. You do not need to keep this folder, but if you want to use something from our tools you are allowed to use them :)
+
+### What is "MultiMapsLoadingImages.json" for ?
+It's a example file to show what you can do, if you want to load only one picture when joining a chernarusplus server and another picture on a livonia (enoch) server you can !
+
+### How do I make a edds file ?
+Near the end of this page you should have a quick tutorial: https://github.com/salutesh/DayZ-Expansion-Scripts/wiki/%5BModding%5D-Adding-custom-loading-screen
 
 ### The screen is white !
 The path of your pictures is incorrect or the naming is wrong. The mod was not able to find the picture(s).

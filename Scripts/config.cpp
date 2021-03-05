@@ -8,7 +8,7 @@
 
 class CfgPatches
 {
-    class DZESample_LoadingScreen
+    class ModName_ExpansionLoadingScreen
     {
         units[] = {};
         weapons[] = {};
@@ -22,9 +22,9 @@ class CfgPatches
 ///////////////////////////////////////////////
 class CfgMods
 {
-	class DZ_DZESample_LoadingScreen
+	class DZ_ModName_ExpansionLoadingScreen
 	{
-	    dir = "DayZ-Expansion-LoadingScreen-Sample/LoadingScreen";
+	    dir = "DayZ-Expansion-LoadingScreen-Sample"; //! Name of the mod
 		picture = "";
 	    action = "";
 	    hideName = 1;
@@ -48,8 +48,8 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"DayZ-Expansion-LoadingScreen-Sample/LoadingScreen/Scripts/Common",
-					"DayZ-Expansion-LoadingScreen-Sample/LoadingScreen/Scripts/3_Game"
+					"DayZ-Expansion-LoadingScreen-Sample/Scripts/3_Game"
+					//! Mod name/Scripts/3_Game
 				};
 			};
 		};
