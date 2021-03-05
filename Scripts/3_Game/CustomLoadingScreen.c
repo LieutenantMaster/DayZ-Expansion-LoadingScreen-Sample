@@ -11,7 +11,7 @@ const bool UseCustomLoadingMessages = true;
 const bool UseCustomLogo 			= true;
 const bool UseCustomLoadingBarColor = true;
 const int CustomLoadingBarColor = ARGB( 255, 0, 0, 0 ); 	//! A = Alpha (opacity) / R = Red / G = Green / B = Blue
-															//! Use a online RGBA color picker, make sure to not mix the values !
+															//! Use a online ARGB color picker, make sure to not mix the values !
 
 //! Do not touch anything bellow this line
 modded class LoadingScreen 
