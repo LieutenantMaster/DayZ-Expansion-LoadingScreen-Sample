@@ -15,7 +15,7 @@ class CfgPatches
         requiredVersion = 0.1;
 		requiredAddons[]=
 		{
-			"DayZExpansion_Core"
+			"DayZExpansion_Scripts"
 		};
     };
 };
