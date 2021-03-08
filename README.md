@@ -6,6 +6,8 @@ https://github.com/salutesh/DayZ-Expansion-Scripts/wiki/%5BModding%5D-Adding-cus
 
 You are free to use this sample in your own mod.
 
+You can download the Sample source code and mod at : https://github.com/LieutenantMaster/DayZ-Expansion-LoadingScreen-Sample/archive/main.zip
+
 ## What can you do with this Sample ?
 
 - Custom loading screen pictures
