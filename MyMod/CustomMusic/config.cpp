@@ -25,7 +25,7 @@ class CfgSoundShaders
 	class MyMod_Music_1_SoundShader
 	{
         // music from https://freesound.org/people/InspectorJ/sounds/369147/
-		samples[] = {{"DayZ-Expansion-LoadingScreen-Sample\MyMod\CustomMusic\mymusic",1}};
+		samples[] = {{"MyMod\CustomMusic\mymusic",1}};
 		volume=0.70794576;
 	};
 };
