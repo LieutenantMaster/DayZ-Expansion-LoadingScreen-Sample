@@ -24,12 +24,12 @@ class CfgMods
 {
 	class DZ_ModName_ExpansionLoadingScreen
 	{
-	    dir = "DayZ-Expansion-LoadingScreen-Sample"; //! Name of the mod
+	    dir = "MyMod"; //! Name of the mod
 		picture = "";
 	    action = "";
 	    hideName = 1;
 	    hidePicture = 1;
-		name = "DayZExpansion Sample LoadingScreen";
+		name = "DayZExpansion Example LoadingScreen";
 		credits = "DayZ Expansion";
 	    author = "DayZ Expansion";
 	    authorID = "";
@@ -39,7 +39,8 @@ class CfgMods
 
 		dependencies[]= 
 		{
-			"Game"
+			"Game",
+			"Mission"
 		};
 		class defs
 		{
@@ -48,8 +49,17 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"DayZ-Expansion-LoadingScreen-Sample/Scripts/3_Game"
+					"MyMod/Scripts/3_Game"
 					//! Mod name/Scripts/3_Game
+				};
+			};
+			class missionScriptModule
+			{
+				value="";
+				files[]=
+				{
+					"MyMod/Scripts/5_Mission"
+					//! Mod name/Scripts/5_Mission
 				};
 			};
 		};

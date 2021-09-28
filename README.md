@@ -14,6 +14,8 @@ You can download the Sample source code and mod at : https://github.com/Lieutena
 - Custom loading screen messages
 - Custom loading screen logo
 - Custom loading bar color
+- Custom Main Menu Music
+- Custom Main Menu Scene
 - You can enable the features you want
 
 ## Troubleshoot

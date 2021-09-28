@@ -3,8 +3,8 @@
         "MapName": "default",
         "Path":
         [
-            "DayZ-Expansion-LoadingScreen-Sample/Scripts/loading_screen_1_co.edds",
-            "DayZ-Expansion-LoadingScreen-Sample/Scripts/loading_screen_2_co.edds"
+            "MyMod/Pictures/loading_screen_1_co.edds",
+            "MyMod/Pictures/loading_screen_2_co.edds"
         ]
     },
     {
@@ -18,7 +18,7 @@
         "MapName": "enoch",
         "Path":
         [
-            "DayZ-Expansion-LoadingScreen-Sample/Scripts/loading_screen_3_co.edds"
+            "MyMod/Pictures/loading_screen_3_co.edds"
         ]
     }
 ]

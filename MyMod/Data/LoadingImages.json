@@ -1,0 +1,11 @@
+[
+    {
+        "MapName": "default",
+        "Path":
+        [
+            "MyMod/Pictures/loading_screen_1_co.edds",
+            "MyMod/Pictures/loading_screen_2_co.edds",
+            "MyMod/Pictures/loading_screen_3_co.edds"
+        ]
+    }
+]
