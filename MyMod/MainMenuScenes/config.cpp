@@ -6,6 +6,11 @@
  *
 */
 
+
+
+// If you do not want custom scenes, delete this file
+
+
 class CfgPatches
 {
     class ModName_ExpansionMainMenuScenes

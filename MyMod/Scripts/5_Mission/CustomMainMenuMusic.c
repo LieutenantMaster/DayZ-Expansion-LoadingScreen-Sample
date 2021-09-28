@@ -1,6 +1,6 @@
 const string MUSIC_SOUNDSET 	= "MyMod_Music_1_SoundSet";
 
-const bool UseCustomMusic = true;
+const bool UseCustomMusic       = true;
 
 modded class MissionMainMenu
 {
