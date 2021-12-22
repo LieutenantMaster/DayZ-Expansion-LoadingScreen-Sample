@@ -6,6 +6,13 @@
  *
 */
 
+/*
+
+This file is only required if you want a custom music in the main menu
+If you do not want custom music, delete this file
+
+*/
+
 class CfgPatches
 {
 	class ModName_ExpansionCustomMusic

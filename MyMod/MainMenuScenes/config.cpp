@@ -7,8 +7,12 @@
 */
 
 
+/*
 
-// If you do not want custom scenes, delete this file
+This file is only required if you want a custom scenes in the main menu
+If you do not want custom scenes, delete this file
+
+*/
 
 
 class CfgPatches

@@ -1,3 +1,10 @@
+/*
+
+This file is only required if you want a custom music in the main menu
+If you do not want custom music, delete this file
+
+*/
+
 const string MUSIC_SOUNDSET 	= "MyMod_Music_1_SoundSet";
 
 const bool UseCustomMusic       = true;
