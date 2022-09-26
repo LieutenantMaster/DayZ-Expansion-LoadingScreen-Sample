@@ -7,15 +7,19 @@ const string LOADING_SCREEN_LOGO 	= "MyMod/Pictures/loading_screen_2_co.edds";
 //! true  = yes
 //! false = no
 const bool UseCustomLoadingPictures = true;
+const bool ShowLoadingMessages		= true;
+const bool ShowLoadingAuthor		= true;
 const bool UseCustomLoadingMessages = true;
+const bool ShowLogo 				= true;
 const bool UseCustomLogo 			= true;
+const bool ShowModdedWarning 		= false;
+
 const bool UseCustomLoadingBarColor = true;
-const bool ShowModdedWarning 		= true;
-const int CustomLoadingBarColor 	= ARGB( 255, 0, 0, 0 ); 	//! A = Alpha (opacity) / R = Red / G = Green / B = Blue
-																//! Use a online ARGB color picker, make sure to not mix the values !
+const int CustomLoadingBarColor = ARGB( 255, 255, 255, 255 ); 	//! A = Alpha (opacity) / R = Red / G = Green / B = Blue
+															//! Use a online ARGB color picker, make sure to not mix the values !
 
 //! Do not touch anything bellow this line
-modded class LoadingScreen 
+modded class LoadingScreen
 {
 	void LoadingScreen(DayZGame game)
 	{
@@ -29,17 +33,17 @@ modded class LoadingScreen
 			JsonFileLoader< ref array< ref ExpansionLoadingScreenMessageData > >.JsonLoadFile( LOADING_MESSAGES_PATH, m_MessageJson );
 		}
 		
+		m_ImageLogoMid.Show( ShowLogo );
+		m_ImageLogoCorner.Show( ShowLogo );
+		m_ModdedWarning.Show( ShowModdedWarning );
+		m_LoadingMessage.Show( ShowLoadingMessages );
+		m_LoadingMessageAuthor.Show( ShowLoadingAuthor );
+
 		if ( UseCustomLogo )
 		{
 			m_ImageLogoMid.LoadImageFile( 0, LOADING_SCREEN_LOGO );
 			m_ImageLogoCorner.LoadImageFile( 0, LOADING_SCREEN_LOGO );
 		}
-
-		if ( !ShowModdedWarning )
-		{
-			m_ModdedWarning.Show( !ShowModdedWarning );
-		}
-
 
 		if ( UseCustomLoadingBarColor )
 		{
@@ -62,6 +66,9 @@ modded class LoadingScreen
 		}
 		
 		super.Show();
+		
+		m_LoadingMessage.Show( ShowLoadingMessages );
+		m_LoadingMessageAuthor.Show( ShowLoadingAuthor );
 	};
 };
  
