@@ -2,7 +2,7 @@
 
 Please use instead this mod which works without expansion as a bonus
 
-https://github.com/salutesh/Community-Loading-Screen/tree/main/LoadingScreen
+https://github.com/salutesh/Community-Loading-Screen
 
 For more informations about this sample please follow:
 
